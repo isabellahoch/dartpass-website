@@ -59,3 +59,7 @@ a:hover {
   color: #013a22;
   text-decoration: underline;
 }
+
+img {
+  max-width:92vw;
+}
