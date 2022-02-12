@@ -6,7 +6,7 @@ header,
 }
 
 #intro {
-    background: url("dartmouth_aerial.jpeg")no-repeat center center fixed;
+    background: url("src/dartmouth_aerial.jpeg")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -29,4 +29,33 @@ header,
 
 .white-text {
     color:#fff;
+}
+
+hr {
+  color: #656969;
+  border-width: 2px;
+  border: 1;
+  clear: both;
+  width: 96%;
+  height: 1px;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #d2e4d6;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Crimson Text', serif;
+}
+
+a {
+  color: #00693e;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+  color: #013a22;
+  text-decoration: underline;
 }

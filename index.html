@@ -8,6 +8,73 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Comfortaa|Lobster+Two|Luckiest+Guy|Poiret+One|Sigmar+One" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700" rel="stylesheet">
+
+        <style>
+
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("src/dartmouth_aerial.jpeg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+    background-color: #24355C;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
+
+.white-text {
+    color:#fff;
+}
+
+hr {
+  color: #656969;
+  border-width: 2px;
+  border: 1;
+  clear: both;
+  width: 96%;
+  height: 1px;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #d2e4d6;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Crimson Text', serif;
+}
+
+a {
+  color: #00693e;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+  color: #013a22;
+  text-decoration: underline;
+}
+
+        </style>
     </head>
     <body>
            <!--Main Navigation-->
@@ -45,7 +112,7 @@
                                 <a class="nav-link" href="#gallery">Gallery</a>
                             </li> -->
                             <li class="nav-item">
-                                <a class="nav-link" href="mailto:isabella.25@dartmouth.edu">Contact</a>
+                                <a class="nav-link" href="mailto:dartpass@angelic.com">Contact</a>
                             </li>
                         </ul>
                         <!-- Links -->
@@ -119,6 +186,8 @@
         
                     <!-- Heading -->
                     <h2 class="mb-5 font-weight-bold">What is DartPass?</h2>
+
+                    <p>DartPass is the first all-in-one digital substitute for the physical Dartmouth ID card. It is a mobile app designed to allow users the same benefits as the traditional DartCard students pick up during Orientation week, and more.</p>
         
                     <!--Grid row-->
                     <div class="row d-flex justify-content-center mb-4">
@@ -139,6 +208,8 @@
         
                     </div>
                     <!--Grid row-->
+
+                    <hr>
         
                     <!--Grid row-->
                     <div class="row">
@@ -147,10 +218,7 @@
                         <div class="col-md-4 mb-5">
                             <!-- <i class="fa fa-camera-retro fa-4x orange-text"></i> -->
                             <h4 class="my-4 font-weight-bold">Acess Buildings</h4>
-                            <!-- <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit -->
-                                <!-- maiores nam,
-                                aperiam minima
-                                assumenda deleniti hic.</p> -->
+                            <p class="grey-text">Let's face it, Hanover winters are hard. They're even harder when you're locked out of your dorm building at 2 AM because you don't have your ID. Soon, you'll be able to access buildings with just your phone!</p>
                         </div>
                         <!--Grid column-->
         
@@ -158,21 +226,16 @@
                         <div class="col-md-4 mb-1">
                             <!-- <i class="fa fa-heart fa-4x orange-text"></i> -->
                             <h4 class="my-4 font-weight-bold">Pay for Meals</h4>
-                            <!-- <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit -->
-                                <!-- maiores nam,
-                                aperiam minima
-                                assumenda deleniti hic.</p> -->
+                            <p class="grey-text">Ever had to miss a meal or be late to meet a friend at Foco because you forgot your ID? These worries are past troubles with DartPass; all you need to swipe in is your phone!</p>
                         </div>
                         <!--Grid column-->
         
                         <!--Grid column-->
                         <div class="col-md-4 mb-1">
                             <!-- <i class="fa fa-bicycle fa-4x orange-text"></i> -->
-                            <h4 class="my-4 font-weight-bold">Pick up Packages</h4>
-                            <!-- <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                                maiores nam,
-                                aperiam minima
-                                assumenda deleniti hic.</p> -->
+                            <h4 class="my-4 font-weight-bold">Transfer DBA*</h4>
+                            <p class="grey-text">Do you wish you could "Venmo" a friend DBA to pick you up a Collis muffin? With DartPass, you'll be able to integrate with your dining plan, delegate meal swipes, and more.</p>
+                            <p><span class="grey-text">* Pending Administration Approval</span></p>
                         </div>
                         <!--Grid column-->
         
@@ -181,6 +244,7 @@
         
                 </section>
                 <!--Section: Best Features-->
+                <hr>
                 <!--Section: keggy-example-->
                 <section id="keggy-example" class="text-center">
                     
@@ -195,7 +259,7 @@
         
                         </div>
                         <div class="col-md-4">
-                            <h3 class="mb-5 font-weight-bold" style="color:darkslategray">Mobile Wallet Integration</h3>
+                            <h3 class="mb-5 font-weight-bold">Mobile Wallet Integration</h3>
                             <!-- Description -->
                             <p class="grey-text">DartPass will employ HID Global Mobile Wallet Authentication Technology to let you pay for your Collis pasta with Apple Pay!</p>
 
@@ -212,6 +276,19 @@
                     </div>
                 </section>
                 <!--Section: keggy-example-->
+                <hr>
+                <!--Section: unique-->
+                <section id="how-are-we-unique" class="text-center">
+                    
+                    <!-- Heading -->
+                    <h2 class="mb-5 font-weight-bold">What makes DartPass unique?</h2>
+        
+                    <!--Grid row-->
+                    <div class="row d-flex justify-content-center mb-4">
+                        <img src="src/us_vs_competitors.png" style="max-height:600px;" />
+                    </div>
+                </section>
+                <!--Section: unique-->
             </div>
         </main>
 
